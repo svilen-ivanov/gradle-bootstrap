@@ -1,28 +1,29 @@
-gradle-testng-mockito-bootstrap
-===============================
+gradle-bootstrap
+=================
 
+(based on https://github.com/miguno/gradle-testng-mockito-bootstrap)
+    
 A ready-to-use bootstrap Java project backed by gradle, TestNG, Mockito, FEST-Assert 2 and Cobertura for Eclipse and IntelliJ IDEA, with support for Jenkins CI.
 
 
 # Software used in the bootstrap project
 
-* [Gradle](http://www.gradle.org/) version 1.9 -- build tool
-* [TestNG](http://testng.org/) version 6.8.x -- unit testing framework
-* [Mockito](http://code.google.com/p/mockito/) version 1.9.x -- mocking framework
+* [Gradle](http://www.gradle.org/) version 2.10 -- build tool
+* [TestNG](http://testng.org/) version 6.9.x -- unit testing framework
+* [Mockito](http://code.google.com/p/mockito/) version 2.x -- mocking framework
 * [FEST-Assert 2](https://github.com/alexruiz/fest-assert-2.x) version 2.0M10 -- fluent interface for assertions that
   allows you to write assertions that read more like natural language (unfortunately Java lacks something like the
   awesome [ScalaTest](http://www.scalatest.org/) framework)
 * [Cobertura plugin for Gradle](https://github.com/stevesaliman/gradle-cobertura-plugin) -- allows Gradle to generate
   Cobertura compatible test reports (mostly used for integrating test results with Jenkins)
 
-Packages only used for showcasing the functionality:
+Essential Java libraries:
 
-* [Google Guava](http://code.google.com/p/guava-libraries/) -- solely used to show how compile-time dependencies are
-  configured in Gradle
+* [Google Guava](http://code.google.com/p/guava-libraries/) - the missing Java utilities
+* [slf4j](http://www.slf4j.org/) - logging library with [logback](http://logback.qos.ch/) binding and sample configuration
 
 The latest dependency information is always available in
-[build.gradle](https://github.com/miguno/gradle-testng-mockito-bootstrap/blob/master/build.gradle).
-
+build.gradle
 
 # What we want to do
 
@@ -150,5 +151,3 @@ See [Bootstrapping a Java project with Gradle, TestNG, Mockito and Cobertura for
 # Contributing
 
 If you come up with any improvements, feel free send me a pull request.
-
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/1ac060fa8df0e565fa8bd1a7c9169527 "githalytics.com")](http://githalytics.com/miguno/gradle-testng-mockito-bootstrap)
