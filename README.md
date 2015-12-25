@@ -16,6 +16,7 @@ A ready-to-use bootstrap Java project backed by gradle, TestNG, Mockito, FEST-As
   awesome [ScalaTest](http://www.scalatest.org/) framework)
 * [Cobertura plugin for Gradle](https://github.com/stevesaliman/gradle-cobertura-plugin) -- allows Gradle to generate
   Cobertura compatible test reports (mostly used for integrating test results with Jenkins)
+* [Capsule](http://www.capsule.io/user-guide/) - very convenient packaging of the whole project as single executable JAR.
 
 Essential Java libraries:
 
@@ -93,6 +94,29 @@ $ cd gradle-bootstrap
 # ...start coding...
 ```
 
+# Deployment
+
+There are 2 tasks that packge the whole project as self-executable JAR:
+
+* {{gradle fatCapsule}} - creates an executable JAR with all dependent JARs included:
+
+```
+$ gradle fatCapsule
+[...]
+# ls -l build/libs/
+total 2736
+-rwxrwxr-- 1 gradle-bootstrap-1.0.0-SNAPSHOT-capsule.jar
+-rw-rw-r-- 1 gradle-bootstrap-1.0.0-SNAPSHOT.jar
+$ build/libs/gradle-bootstrap-1.0.0-SNAPSHOT-capsule.jar
+14:59:47.568 [main] INFO  com.miguno.bootstrap.gtm.BobRoss - Test message
+Now we will paint the sky
+Now we will paint the lake
+Now we will paint the mountain
+Now we will paint the happy tree
+Now we will paint the little squirrel
+```
+
+* {{gradle mavenCapsule}} - similar to {{fatCapsule}} but resolving the maven dependencies on the first run from [jcenter](https://bintray.com/bintray/jcenter)
 
 # About the actual Java code in the bootstrap project
 
