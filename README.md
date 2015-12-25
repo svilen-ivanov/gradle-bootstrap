@@ -81,7 +81,7 @@ First, open the [bootstrap project on GitHub](https://github.com/svilen-ivanov/g
 Then clone (i.e. checkout) your personal fork.
 
 ```
-$ git clone git@github.com:YOURUSERNAME/gradle-testng-mockito-bootstrap.git
+$ git clone git@github.com:YOURUSERNAME/gradle-bootstrap.git
 ```
 
 _Note: Make sure to replace `YOURUSERNAME` in the git URL above with the name of your GitHub user account._
@@ -89,7 +89,7 @@ _Note: Make sure to replace `YOURUSERNAME` in the git URL above with the name of
 Now you can start hacking away!
 
 ```
-$ cd gradle-testng-mockito-bootstrap
+$ cd gradle-bootstrap
 # ...start coding...
 ```
 
