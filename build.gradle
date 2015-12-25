@@ -100,7 +100,7 @@ task wrapper(type: Wrapper) {
     gradleVersion = '2.10'
 }
 
-// Runable Jars
+// Runnable Jars
 // https://github.com/danthegoodman/gradle-capsule-plugin/blob/master/DOCUMENTATION.md
 task fatCapsule(type: FatCapsule) {
     applicationClass mainClassName
@@ -108,7 +108,7 @@ task fatCapsule(type: FatCapsule) {
 
     capsuleManifest {
 //        systemProperties['log4j.configuration'] = 'log4j.xml'
-//        args = ['--very-fancy']
+//        args = ['-Xmx1024M']
         minJavaVersion = targetCompatibility
     }
 }
