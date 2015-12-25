@@ -62,13 +62,13 @@ If you don't have a GitHub account, the simplest way is to just clone (i.e. chec
 The only requirement is a local installation of [git](http://git-scm.com/) on your machine.
 
 ```
-$ git clone git://github.com/miguno/gradle-testng-mockito-bootstrap.git
+$ git clone git@github.com:svilen-ivanov/gradle-bootstrap.git
 ```
 
 Now you can start hacking away!
 
 ```
-$ cd gradle-testng-mockito-bootstrap
+$ cd gradle-bootstrap
 # ...start coding...
 ```
 
