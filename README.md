@@ -22,8 +22,13 @@ Essential Java libraries:
 * [Google Guava](http://code.google.com/p/guava-libraries/) - the missing Java utilities
 * [slf4j](http://www.slf4j.org/) - logging library with [logback](http://logback.qos.ch/) binding and sample configuration
 
-The latest dependency information is always available in
-build.gradle
+The latest dependency information is always available in build.gradle
+
+If you are using command-line Gradle, make sure you enable the `daemon` mode:
+
+```
+$ touch ~/.gradle/gradle.properties && echo "org.gradle.daemon=true" >> ~/.gradle/gradle.properties
+```
 
 # What we want to do
 
