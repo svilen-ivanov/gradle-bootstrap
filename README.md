@@ -98,7 +98,7 @@ $ cd gradle-bootstrap
 
 There are 2 tasks that packge the whole project as self-executable JAR:
 
-* {{gradle fatCapsule}} - creates an executable JAR with all dependent JARs included:
+* ``gradle fatCapsule`` - creates an executable JAR with all dependent JARs included:
 
 ```
 $ gradle fatCapsule
@@ -116,7 +116,7 @@ Now we will paint the happy tree
 Now we will paint the little squirrel
 ```
 
-* {{gradle mavenCapsule}} - similar to {{fatCapsule}} but resolving the maven dependencies on the first run from [jcenter](https://bintray.com/bintray/jcenter)
+* ``gradle mavenCapsule`` - similar to {{fatCapsule}} but resolving the maven dependencies on the first run from [jcenter](https://bintray.com/bintray/jcenter)
 
 # About the actual Java code in the bootstrap project
 
