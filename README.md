@@ -10,7 +10,7 @@ A ready-to-use bootstrap Java project backed by gradle, TestNG, Mockito, FEST-As
 
 * [Gradle](http://www.gradle.org/) version 2.10 -- build tool
 * [TestNG](http://testng.org/) version 6.9.x -- unit testing framework
-* [Mockito](http://code.google.com/p/mockito/) version 2.x -- mocking framework
+* [Mockito](https://github.com/mockito/mockito) version 2.x -- mocking framework
 * [FEST-Assert 2](https://github.com/alexruiz/fest-assert-2.x) version 2.0M10 -- fluent interface for assertions that
   allows you to write assertions that read more like natural language (unfortunately Java lacks something like the
   awesome [ScalaTest](http://www.scalatest.org/) framework)
