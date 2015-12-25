@@ -1,4 +1,4 @@
-package com.miguno.bootstrap.gtm;
+package com.buhtum.gb;
 
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.ImmutableSet.Builder;

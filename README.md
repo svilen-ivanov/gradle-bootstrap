@@ -105,15 +105,15 @@ $ gradle fatCapsule
 [...]
 # ls -l build/libs/
 total 2736
--rwxrwxr-- 1 gradle-bootstrap-1.0.0-SNAPSHOT-capsule.jar
--rw-rw-r-- 1 gradle-bootstrap-1.0.0-SNAPSHOT.jar
-$ build/libs/gradle-bootstrap-1.0.0-SNAPSHOT-capsule.jar
-14:59:47.568 [main] INFO  com.miguno.bootstrap.gtm.BobRoss - Test message
+-rwxrwxr-- 1 gradle-bootstrap-0.0.1-SNAPSHOT-capsule.jar
+-rw-rw-r-- 1 gradle-bootstrap-0.0.1-SNAPSHOT.jar
+$ build/libs/gradle-bootstrap-0.0.1-SNAPSHOT-capsule.jar
+15:11:33.781 [main] INFO  com.buhtum.gb.BobRoss - Test message
 Now we will paint the sky
 Now we will paint the lake
 Now we will paint the mountain
 Now we will paint the happy tree
-Now we will paint the little squirrel
+Now we will paint the little squirrell
 ```
 
 * ``gradle mavenCapsule`` - similar to ``fatCapsule`` but resolving the maven dependencies on the first run from [jcenter](https://bintray.com/bintray/jcenter)
@@ -122,10 +122,10 @@ Now we will paint the little squirrel
 
 The bootstrap project ships with only two classes:
 
-* [BobRoss.java](https://github.com/svilen-ivanov/gradle-bootstrap/blob/master/src/main/java/com/miguno/bootstrap/gtm/BobRoss.java)
+* [BobRoss.java](https://github.com/svilen-ivanov/gradle-bootstrap/blob/master/src/main/java/com/buhtum/gb/BobRoss.java)
   -- A simple class that implements a few features that we can write unit tests for.  We pretend to be the late
   painting instructor [Bob Ross](http://en.wikipedia.org/wiki/Bob_Ross) who, well, is painting a picture with us.
-* [BobRossTest.java](https://github.com/svilen-ivanov/gradle-bootstrap/blob/master/src/test/java/com/miguno/bootstrap/gtm/BobRossTest.java)
+* [BobRossTest.java](https://github.com/svilen-ivanov/gradle-bootstrap/blob/master/src/test/java/com/buhtum/gb/BobRossTest.java)
   -- This class tests the former class.  It illustrates the use of TestNG, Mockito and FEST-Assert 2 to write these
   unit tests.  Don't pay too much attention to the semantics of the actual tests, we're just showcasing here.
 

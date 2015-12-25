@@ -1,18 +1,15 @@
-package com.miguno.bootstrap.gtm;
+package com.buhtum.gb;
 
-import static org.fest.assertions.api.Assertions.assertThat;
-import static org.mockito.Matchers.any;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.verify;
+import com.google.common.collect.ImmutableSet;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
 import java.io.PrintStream;
 import java.util.Set;
 
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
-
-import com.google.common.collect.ImmutableSet;
+import static org.fest.assertions.api.Assertions.assertThat;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.*;
 
 /**
  * This test class shows how to write unit tests with TestNG, Mockito and FEST-Assert 2.

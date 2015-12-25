@@ -20,13 +20,13 @@ apply plugin: 'idea'
 apply plugin: 'com.github.ben-manes.versions'
 
 // group is the groupId
-group = 'com.miguno.bootstrap.gtm'
+group = 'com.buhtum.gb'
 //the default artifactId is the project name, which is per default the directory name of the project
-version = '1.0.0-SNAPSHOT'
+version = '0.0.1-SNAPSHOT'
 
 description = """A bootstrap Java project with gradle, TestNG, Mockito, FEST-Assert 2 and Cobertura for Eclipse and Jenkins"""
 
-mainClassName = "com.miguno.bootstrap.gtm.BobRoss"
+mainClassName = "com.buhtum.gb.BobRoss"
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
